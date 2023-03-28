@@ -1,0 +1,23 @@
+{
+  "fibre_node": {
+    "width": 48,
+    "height": 48,
+    "x": 0,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "square": {
+    "width": 48,
+    "height": 48,
+    "x": 48,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "square_outline": {
+    "width": 48,
+    "height": 48,
+    "x": 96,
+    "y": 0,
+    "pixelRatio": 2
+  }
+}

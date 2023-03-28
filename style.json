@@ -1,0 +1,85 @@
+{
+  "version": 8,
+  "metadata": {
+    "maputnik:renderer": "ol"
+  },
+  "center": [
+    10.5028269,
+    51.3031181
+  ],
+  "zoom": 4,
+  "sources": {
+    "testSource": {
+      "type": "geojson",
+      "data": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "coordinates": [
+                3.516191866998099,
+                -4.613189912947902
+              ],
+              "type": "Point"
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "coordinates": [
+                14.804000415714086,
+                17.478211966984816
+              ],
+              "type": "Point"
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "coordinates": [
+                27.029993503584564,
+                4.448900554706228
+              ],
+              "type": "Point"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "sprite": "/sprite/sprite",
+  "layers": [
+    {
+      "id": "fibre_node",
+      "source": "testSource",
+      "type": "symbol",
+      "metadata": {
+        "layerPanelGroup": "poi",
+        "group": "fibre_node",
+        "label_de": "##Glasfaserknoten",
+        "lable_en": "##fibre node"
+      },
+      "layout": {
+        "icon-image": "fibre_node",
+        "icon-allow-overlap": true
+      }
+    },
+    {
+      "id": "square",
+      "source": "testSource",
+      "type": "symbol",
+      "layout": {
+        "icon-image": "square",
+        "icon-offset": [0, -25],
+        "icon-allow-overlap": true
+      },
+      "paint": {
+        "icon-color": "red"
+      }
+    }
+  ]
+}
